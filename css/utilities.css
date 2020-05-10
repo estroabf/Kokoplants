@@ -32,9 +32,18 @@
   grid-gap: 0.5rem 0.5rem;
 }
 
+.submit-grid {
+  display: grid;
+  height: 10rem;
+  grid-template-rows: 1fr 1fr;
+  background-color: chocolate;
+}
+
 .my-2 {
   margin: 0.5rem;
   padding: 0;
+
+  background-color: blue;
 }
 
 
