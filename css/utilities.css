@@ -1,0 +1,41 @@
+.columns {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  justify-items: center;
+  padding: 2rem;
+  margin: 2rem 5rem;
+  /* border: darkblue 1px solid; */
+}
+
+
+.title-box {
+  color: var(--primary-color);
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.center-box {
+  text-align: center;
+  margin: 6rem 8rem;
+}
+
+
+.image-columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5rem 0.5rem;
+}
+
+/* .form-container {
+  width: 100%;
+  background-color: aqua;
+  opacity: 0.5;
+} */
+
+

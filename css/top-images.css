@@ -1,0 +1,20 @@
+header .image-home {
+  background: url('../img/showcase2.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+header .image-collaboration {
+  background: url('../img/plant.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+header .image-about {
+  background: url('../img/aboutImage4.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+
+header .image-contact {
+  background: url('../img/showcase1.jpg') no-repeat center center/cover;
+  height: 100vh;
+}

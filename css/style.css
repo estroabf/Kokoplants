@@ -1,0 +1,389 @@
+:root {
+  --primary-color: #003300;
+  --secondary-color: #9b8714;
+  --dark-color: #77670f;
+  --font-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2rem;
+  background: #ffff;
+  color:#333;
+  line-height: 1.6;
+  /* background-color: chocolate; */
+}
+
+/* Showcase */
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+header h1{
+  font-size: 4rem;
+  color: #003300;
+  padding: 0 1rem;
+}
+
+header p {
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 0 1.2rem;
+}
+
+/* Navbar */
+.nav {
+  align-items: center;
+  height: 85px;
+  width: 100%;
+  padding: 0px 35px;
+  border-bottom: rgb(221, 221, 221) 1px solid;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.logo-image {
+  height: 5rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul li {
+  list-style-type: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+.nav ul li a:hover {
+  border-bottom: var(--primary-color) 3px solid;
+  opacity: 0.8;
+}
+
+.nav ul li a.current {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-radius: 35%;
+}
+
+/* Nav positions */
+.bottom-nav {
+  position: absolute;
+  bottom: 0;
+}
+
+.top-nav {
+  position: fixed;
+  top: 0;
+}
+
+/* Menu */
+.menu-wrap,
+.menu-bar {
+  display: none;
+}
+
+
+/* End of Navbar */
+
+/* -------------------------------- */
+
+/* Home Section A */
+#home-section-a .column-image {
+  height: 550px;
+  width: 100%;
+  background: url('../img/hanging_plant.jpg') no-repeat center center/cover;
+  padding: 0.5rem 2rem;
+  margin: 0 2rem;
+}
+
+#home-section-a .column-text {
+  height: 550px;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem;
+}
+ 
+#home-section-a .column-text h4 {
+  font-size: 1.5rem;
+} 
+
+#home-section-a .column-text h2 {
+  font-size: 2.4rem;
+  color: var(--primary-color);
+} 
+
+
+#home-section-a .column-text a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+}
+
+#home-section-a .column-text a:hover {
+  color: #77670f;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+/* End of Section A */
+
+/* --------------------------- */
+
+/* Hidden Items */
+#take-care-box .columns {
+  margin: 0.5rem 15rem;
+}
+
+#take-care-box .columns .column-image-1  {
+  background: url('../img/takeCare1.jpg') no-repeat center center/cover;
+  height: 400px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#take-care-box .columns .column-text {
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 8rem;
+  padding: 0 2rem;
+}
+
+.unhidden-object {
+  display: none;
+}
+
+
+#take-care-box .columns .column-image-2  {
+  background: url('../img/takeCare2.jpg') no-repeat center center/cover;
+  height: 400px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#take-care-box .columns .column-image-3  {
+  background: url('../img/takeCare3.jpg') no-repeat center center/cover;
+  height: 400px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* End of Hidden Items */
+
+/* ----------------------------- */
+
+/* Section B */
+#home-section-b .columns .column-image-4 {
+  background: url('../img/hanging_plant2.jpg') no-repeat center center/cover;
+  height: 550px;
+  width: 100%;
+}
+
+#home-section-b .columns .column-text {
+  height: 550px;
+  text-align: center;
+}
+
+#home-section-b .columns .column-text h2 {
+  padding-top: 5rem;
+}
+
+#home-section-b .columns .column-text h4 {
+  padding-top: 2rem;
+}
+
+#home-section-b .columns .column-text a {
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+/* End of Section B */
+
+/* ----------------------- */
+
+/* Collaboration Section A */
+/* images */
+.grid-image-1 {
+  background: url('../img/GRIT_Objects/1.jpg')no-repeat center center/cover;
+  height: 300px;
+  width: 300px;
+}
+
+.grid-image-2 {
+  background: url('../img/GRIT_Objects/2.jpg')no-repeat center center/cover;
+  height: 300px;
+  width: 300px;
+}
+
+.grid-image-3 {
+  background: url('../img/GRIT_Objects/3.jpg')no-repeat center center/cover;
+  height: 300px;
+  width: 300px;
+}
+
+.grid-image-4 {
+  background: url('../img/GRIT_Objects/4.jpg')no-repeat center center/cover;
+  height: 300px;
+  width: 300px;
+}
+
+.grid-image-5 {
+  background: url('../img/GRIT_Objects/5.jpg')no-repeat center center/cover;
+  height: 300px;
+  width: 300px;
+}
+
+.grid-image-6 {
+  background: url('../img/GRIT_Objects/6.jpg')no-repeat center center/cover;
+  height: 300px;
+  width: 300px;
+}
+
+.center-box h3 {
+  text-align: center;
+}
+
+.center-box p {
+  text-align: justify;
+}
+
+.center-box a {
+  color: var(--secondary-color);
+}
+
+/* End Collaboration */
+
+/* ------------------------------- */
+
+/* About */
+.grid-image-about {
+  background: url('../img/cicio&rob.jpg')no-repeat center center/cover;
+  height: 300px;
+  width: 300px;
+}
+
+.image-grid-about {
+  display: flex;
+  justify-content: center;
+}
+
+.column-text-about-1 {
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+  margin: 1rem;
+  padding: 0 2rem;
+}
+
+.column-text-about-2 {
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+  margin: 1rem;
+  padding: 0 2rem;
+}
+
+.column-text-about h3 {
+  text-align: center;
+}
+
+.column-text-about p {
+  text-align: justify;
+}
+
+/* End of About */
+
+/* ----------------------- */
+
+/* Contact */
+#contact-page {
+  color: var(--font-color);
+}
+
+#contact-page {
+  font-size: 1rem;
+}
+
+.form-container .text-fields {
+  height: 800px;
+  margin: 0 12rem;
+}
+
+.form-container .text-fields div {
+  padding-bottom: 4rem;
+}
+
+.form-container .text-fields label {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.form-container .text-fields input {
+  width: 100%;
+  height: 3rem;
+  font-size: 1.2rem;
+}
+
+.form-container .text-fields textarea {
+  width: 100%;
+  height: 10rem;
+}
+
+.form-container .text-fields button {
+  background: var(--primary-color);
+  color: #fff;
+  height: 3rem;
+  width: 8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 20%;
+  box-shadow: none;
+  
+}
+
+
+
+/* Footer */
+#main-footer .columns {
+  height: 4rem; 
+  margin: 3rem 10rem;
+  border-top: #333 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-footer-right i {
+  padding: 0 1rem;
+}
+
+.column-footer-right .social a {
+  color: var(--font-color);
+}
+
+.column-footer-right .social a:hover {
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--dark-color);
+}

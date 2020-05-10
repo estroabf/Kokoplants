@@ -1,0 +1,154 @@
+/* tablets */
+@media (max-width: 800px) {
+
+
+  /* Top features */
+  .main {
+    height: 100vh;
+  }
+
+  header .image-home {
+    width: 100%;
+  }
+
+  /* Nav positions */
+  .bottom-nav { 
+    display: none;
+  }
+
+  .top-nav {
+    position: fixed;
+    top: 0;
+  }
+
+  #main-nav .logo-image {
+    height: 4rem;
+    width: 6rem;
+  }
+
+  /* End of Navbar */
+
+  /* -------------------------------- */
+
+  /* Utilities */
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* ------------------ */
+
+  /* Home Section A */
+
+
+  #home-section-a .column-text {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    margin-top: 2rem;
+  }
+
+  #home-section-a .column-text p{
+    margin-top: 0.5rem;
+  }
+
+
+  /* --------------------------- */
+
+/* Hidden Items */
+#take-care-box .columns {
+  margin: 0.5rem 10rem;
+}
+
+#take-care-box .columns .column-image-1  {
+  height: 400px;
+  width: 100%;
+}
+
+#take-care-box .columns .column-text {
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  margin: 1rem;
+  padding: 0 2rem;
+}
+
+.unhidden-object {
+  display: grid;
+}
+
+.hidden-object {
+  display: none;
+}
+
+
+#take-care-box .columns .column-image-2  {
+  background: url('../img/takeCare2.jpg') no-repeat center center/cover;
+  height: 400px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#take-care-box .columns .column-image-3  {
+  background: url('../img/takeCare3.jpg') no-repeat center center/cover;
+  height: 400px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* End of Hidden Items */
+
+/* ----------------------------- */
+
+/* Home Section B */
+#home-section-b .columns .column-image-4 {
+  display: none;
+}
+
+/* End Section B */
+
+/* -------------------------------- */
+
+/* Collaboration Section A */
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5rem 0.5rem;
+}
+
+/* ----------------------------------- */
+
+/* About */
+.center-box {
+  margin: 4rem 6rem;
+}
+
+.column-text-about-1 {
+  text-align: justify;
+}
+
+.column-text-about-2 {
+  text-align: justify;
+}
+
+.column-text-about-2 h3 {
+  text-align: end;
+}
+
+/* ---------------------------- */
+
+/* Contact */
+.form-container .text-fields {
+  margin: 0 8rem;
+}
+
+/* -------------------------- */
+
+/* Footer */
+#main-footer .columns {
+  height: 6rem; 
+}
+
+
+}
