@@ -96,7 +96,7 @@
           <h2>Kokedama</h2>
           <p>Translated from the Japanese as “moss ball”. Originally was one of the techniques to display bonsai trees. Nowadays is seen as hanging plant and became an enjoyable way of growing indoor and outdoor plants.The kokedama technique is different, it can be used for various plants and with different wrapping ( moss or coconut fibre). It creates a cosy and sustainable pot for many types of roots. We have created a new and simple way of hanging kokedama and we have given the name of “Koko Plants”.</p>
           <br>
-          <a id="take-care-btn" href="#show">
+          <a id="take-care-btn" href="#show-take-care">
             <i class="fas fa-chevron-right"></i>
             How to take care of a kokedama
           </a>
@@ -160,11 +160,10 @@
       </div>
     </div>
 
-    <div id="show"></div>
-
 
   </div>
 
+  <div id="show-take-care"></div>
 
 
   <!-- Section B -->
@@ -215,18 +214,50 @@
 
   <!-- Scripts -->
   <!-- Jquery Links -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
 
  <!-- Navbar -->
   
  <script src="/javascript/main.js"></script>
 
- <script src="/javascript/hidden.js"></script>
+ <!-- <script src="/javascript/hidden.js"></script> -->
  
+ <script>
+
+   $(function() {
+    $('#take-care-box').hide();
+
+    $('#take-care-btn').on('click',function() {
+
+      $('#take-care-box').slideToggle(2000);
+
+    });
+
+});
+
+
+//Smooth Scrolling
+$('#take-care-btn').on('click', function (e) {
+  if (this.hash !== '') {
+    e.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body').animate(
+      {
+        scrollTop: $(hash).offset().top - 100,
+      }, 800
+    );
+
+  }
+});
+
+ </script>
 
  
 </body>
