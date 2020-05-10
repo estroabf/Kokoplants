@@ -327,7 +327,7 @@ header p {
 }
 
 .form-container .text-fields {
-  height: 1000px;
+  height: 950px;
   margin: 0 12rem;
 }
 
@@ -360,7 +360,7 @@ header p {
   font-size: 1rem;
   font-weight: 600;
   border-radius: 20%;
-  box-shadow: none;
+  margin: 0;
 }
 
 
