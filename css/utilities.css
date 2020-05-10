@@ -32,10 +32,8 @@
   grid-gap: 0.5rem 0.5rem;
 }
 
-/* .form-container {
-  width: 100%;
-  background-color: aqua;
-  opacity: 0.5;
-} */
+.my-2 {
+  margin: 1rem;
+}
 
 
