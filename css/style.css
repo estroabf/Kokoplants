@@ -327,12 +327,13 @@ header p {
 }
 
 .form-container .text-fields {
-  height: 800px;
+  height: 1000px;
   margin: 0 12rem;
 }
 
 .form-container .text-fields div {
   padding-bottom: 4rem;
+  
 }
 
 .form-container .text-fields label {
@@ -360,7 +361,6 @@ header p {
   font-weight: 600;
   border-radius: 20%;
   box-shadow: none;
-  
 }
 
 
