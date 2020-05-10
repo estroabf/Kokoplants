@@ -198,7 +198,7 @@
 /* Contact */
 .form-container .text-fields {
   margin: 0 2rem;
-  height: 920px;
+  height: 1000px;
 }
 
 
@@ -213,6 +213,10 @@
 
 .column-footer-right i {
   padding: 1rem
+}
+
+.form-container .text-fields button {
+  margin: 0;
 }
 
 }
